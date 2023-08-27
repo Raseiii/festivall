@@ -1,0 +1,421 @@
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*ISSUES
+Size of nav/footer buttons, color of footer*/
+    
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*FONTS*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+@font-face {
+    font-family: 'WatchHimBecomeAGwad';
+    src: url(fonts/megadethFont/Megadeth.ttf);
+}
+@font-face {
+
+    font-family: 'cheapsign';
+    src: url(fonts/cheapsignFont/CheapSign.ttf);
+}
+@font-face {
+
+    font-family: 'gravedigger';
+    src: url(fonts/gravediggerFont/GravediggerPersonalUse-K7ayW.ttf);
+}
+
+@font-face {
+
+    font-family: 'metallicafont';
+    src: url(fonts/metallicaFont/Pastor\ of\ Muppets.TTF);
+}
+
+@font-face {
+    font-family: 'moonrise';
+    src: url(fonts/moonriseFont/Moonrising.otf);
+}
+
+@font-face {
+    font-family: 'nosfier';
+    src: url(fonts/nosfierFont/Nosifer-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'slayerfont';
+    src: url(fonts/slayerFont/Slaytanic.ttf);
+}
+
+@font-face {
+    font-family: 'blacksabbathfont';
+    src: url(fonts/blacksabbathFont/blacksabbath70.ttf);
+}
+
+@font-face {
+    font-family: 'slipknotfont';
+    src: url(fonts/slipknotFont/Sickness.ttf);
+}
+
+@font-face {
+    font-family: 'ironmaidenfont';
+    src: url(fonts/ironmaidenFont/Metal\ Lord\ \(Iron\ Maiden\ Font\ 1\).ttf);
+}
+
+@font-face {
+    font-family: 'ligerfont';
+    src: url(fonts/ligerFont/FingerPaint-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'drawingblood';
+    src: url(fonts/drawingbloodFont/BD_Cartoon_Shout.ttf);
+}
+
+@font-face {
+    font-family: 'rankday';
+    src: url(fonts/rankdayFont/Rankday-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'jocker';
+    src: url(fonts/jokerFont/Killing\ The\ Moon.otf);
+}
+
+@font-face {
+    font-family: 'req';
+    src: url(fonts/requiemfont/Requiem.ttf);
+}
+
+@font-face {
+    font-family: 'craft';
+    src: url(fonts/crafternFont/Craftern.otf)
+}
+
+@font-face {
+    font-family: 'berkshire';
+    src: url(fonts/berkshireFont/BerkshireSwash-Regular.ttf)
+}
+@font-face {
+    font-family: 'metalmania';
+    src: url(fonts/metalmaniaFont/MetalMania-Regular.ttf)
+}
+@font-face {
+    font-family: 'walt';
+    src: url(fonts/walterTurncoatFont/WalterTurncoat-Regular.ttf)
+}
+@font-face {
+    font-family: 'hothead';
+    src: url(fonts/hotheadFont/hothead_.ttf)
+}
+@font-face {
+    font-family: 'evil';
+    src: url(fonts/evilFont/Evil\ Empire.otf)
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*1280 px*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+body {
+    background-image: url(images/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.theWraper {
+    max-width: 1280px;
+    margin: auto;
+    
+}
+.hamburger {
+    
+    display: none !important;
+}
+
+.navigation {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(33, 29, 29);
+}
+
+.logo img {
+    height: 100px;
+    width: 150px;
+
+
+}
+.countdown p{
+     color: rgb(224, 216, 70);
+     font-family: moonrise;
+     font-size: 20px;
+}
+
+.navigation a {
+    display: inline-block;
+    font-family: 'moonrise';
+    text-decoration: none;
+
+    font-size: 20px;
+    padding: 10px;
+
+    color: rgb(224, 216, 70);
+    transition: 2s;
+}
+.navigation a:hover {
+    background-color: rgb(224, 216, 70);
+    color: white;
+ }
+
+.hero {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    
+    background-image: url(images/BACKGROUND.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.hero a{
+    flex-wrap: wrap;
+}
+
+
+.footer {
+    background-color: rgb(217, 97, 28);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+    font-size: 15px;
+
+    
+    align-items: center;
+    font-family: moonrise;
+    text-decoration: none;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+
+
+}
+
+.footernav a:hover {
+    transition: .5s;
+    color: white;
+
+    background-color: rgb(162, 72, 19);
+
+
+
+}
+
+.mail p {
+    width: 350px;
+
+    font-family: req;
+    font-size: 23px;
+    margin-left: 30px;
+    color: rgb(211, 225, 23);
+}
+
+.enteremail {
+    font-size: 18px;
+    margin-left: 30px;
+    border: 3px solid rgb(107, 101, 101);
+    font-family: "craft";
+    font-style: lighter;
+    width: 65%;
+}
+
+.enteremail:focus {
+    background-color: white;
+    outline: none;
+    border: 2px solid rgb(211, 225, 23);
+    ;
+}
+
+.button {
+    font-family: berkshire;
+    font-size: 18px;
+    margin-left: 0px;
+    background-color: rgb(99, 99, 235);
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+
+.button:focus {
+    background-color: rgb(14, 171, 14);
+    border: 1px gray;
+    transition: .5s;
+}
+
+.button:hover {
+    background-color: rgb(14, 171, 14);
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.social {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.social img {
+    height: 40px;
+    width: 40px;
+
+}
+
+.social a:hover {
+    transition: .5s;
+    rotate: 35deg;
+    background-color: rgb(162, 72, 19);
+
+
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*MOBILE PHONE*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+@media screen and (max-width:700px) {
+    body {
+        
+        background-image: url(images/wallpaper.jpg);
+    }
+    .countdown{
+        display: none ;
+    }
+
+    .hamburger {
+        font-size: 50px !important;
+
+    
+            display: inline-block !important;
+        
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        height: 80px;
+        overflow: hidden;
+        align-items: center;
+    }
+
+
+    .logo {
+        display: none;
+    }
+
+    .extension {
+        height: 500px;
+
+    }
+
+    .link a {
+        display: flex;
+        flex-direction: column;
+        font-size: 38px;
+
+    }
+
+    .navigation a:active {
+        color: rgb(224, 216, 70);
+        transition: 2s;
+    }
+
+
+
+    .footer {
+        align-items: center;
+        text-align: center;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    f
+
+    .mail p {
+        width: max-content;
+        margin-left: 0px !important;
+        margin-top: 15px;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .enteremail {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .footer a {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 30px;
+        font-size: 30px;
+        align-items: center;
+    }
+
+    .footernav a:active {
+        transition: .5s;
+    }
+
+
+
+    .social {
+        display: flex;
+        align-items: center;
+    }
+
+    .social img {
+        height: 60px;
+        width: 60px;
+
+    }
+
+    .social a:active {
+        transition: .5s;
+        border-radius:  30px;
+        rotate: 35deg;
+    }
+}

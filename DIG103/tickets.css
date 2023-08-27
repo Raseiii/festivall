@@ -1,0 +1,145 @@
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*1280px EDIT BUTTONS*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+.logo img {
+   height: 100px;
+   width: 150px;
+}
+
+
+
+
+.ticketmenu {
+   background-image: url(images/BACKGROUND.png);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.ticketmenu h1 {
+   margin-top: 30px;
+   font-size: 78px;
+   font-family: 'metalmania';
+}
+
+.tickets {
+   display: flex;
+   border-radius: 70px;
+   font-family: craftern;
+   width: 300px;
+   height: 420px;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgba(239, 168, 35, 0.851);
+   margin: 30PX;
+   padding: 10px;
+}
+
+.type {
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.tickets h2 {
+   font-family: cheapsign;
+   font-size: 48px;
+   
+   color: rgb(255, 35, 182);
+   text-align: center;
+   padding: 0;
+}
+
+.tickets h3 {
+   font-family: drawingblood;
+   margin-top: 35px;
+   font-size: 22px;
+   font-weight: bolder;
+   font-style: italic;
+   
+   text-align: center;
+   padding: 5px;
+}
+.toolOne{
+   color: white;
+}
+
+.margin{
+   margin-top: 40px !important;
+}
+
+
+.tickets h6 {
+   font-family: req;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   font-style: italic;
+   color: red;
+   text-align: center;
+   padding: 5px;
+}
+
+.type h4 {
+   
+   color: white;
+   background-color: red;
+   text-decoration: none;
+   margin-top: 20px;
+   height: 60px !important;
+   width: 180px;
+   font-family: evil;
+   font-weight: lighter;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+}
+
+.type a {
+   color: white;
+}
+
+.type h4:hover {
+   background-color: green;
+   color: white;
+   transition: 1s;
+}
+
+.type h5 {
+   padding: 0px;
+   color: deeppink;
+   font-size: 40px;
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*MOBILE PHONE*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+@media screen and (max-width:768px){
+
+   .type h4:active {
+      background-color: green;
+      color: white;
+      transition: 1s;
+   }
+   .type h4{
+      font-size: 30px;
+      
+   }
+
+
+}

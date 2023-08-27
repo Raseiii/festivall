@@ -1,0 +1,407 @@
+/* ------------------------------------- */
+/* global styles  */
+/*
+   
+    
+   change yellow color 
+   
+   remove underline !!!
+   
+   
+   create newsletter button 
+
+
+*/
+
+
+.hamburger {
+
+   display: none;
+}
+
+
+
+
+
+
+
+.hero{
+   text-align: center;
+}
+.hero h1 {
+   
+   color: black !important;
+   font-family: 'nosfier';
+   font-size: 65px;
+
+}
+
+
+.hero h2 {
+
+   text-decoration: none;
+   font-family: 'nosfier';
+   font-size: 40px;
+   color: rgb(224, 216, 70);
+}
+
+.hero h4 {
+   text-decoration: none;
+   font-family: 'nosfier';
+   font-size: 50px;
+   color: rgb(224, 216, 70);
+   margin-bottom: 0;
+   font-style: italic;
+
+}
+
+
+
+.artists {
+
+   color: white;
+   font-size: 55px;
+   width: 1000px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   justify-content: space-evenly;
+
+
+}
+
+.megadeth {
+   margin-bottom: 30px;
+}
+
+.artists a {
+   margin-top: 20px;
+}
+
+.megadeth :hover {
+   text-decoration: none;
+   transition: 1s;
+   color: rgb(90, 90, 90);
+   transform: rotate(50);
+
+
+}
+
+.ironmaiden a:hover {
+   text-decoration: none;
+   transition: 1s;
+   color: yellow;
+   rotate: -15deg;
+
+}
+
+.slipknot a:hover {
+   transition: 1s;
+   color: red;
+   rotate: 15deg;
+
+}
+
+.metallica a:hover {
+   transition: 1s;
+   color: blue;
+   transform: rotate(50deg);
+}
+
+.blacksabbath a:hover {
+   transition: 1s;
+   color: purple;
+   rotate: -15deg;
+}
+
+.slayer a:hover {
+
+   transition: 1s;
+   color: red;
+   rotate: -15deg;
+}
+
+.megadeth a {
+
+   text-decoration: none;
+   color: white;
+   margin: 10px;
+   padding: 10px;
+   transition: .5s;
+   font-family: 'WatchHimBecomeAGwad';
+}
+
+.metallica a {
+   color: white;
+   text-decoration: none;
+   font-size: 70px;
+   margin: 10px;
+   padding: 10px;
+   transition: .5s;
+   font-family: 'metallicafont';
+}
+
+.slayer a {
+   text-decoration: none;
+   color: white;
+   margin: 10px;
+   padding: 10px;
+   transition: .5s;
+   font-family: 'slayerfont';
+}
+
+.blacksabbath a {
+
+   text-decoration: none;
+   color: white;
+
+   padding: 10px;
+   transition: .5s;
+   font-family: 'blacksabbathfont';
+}
+
+.slipknot a {
+   text-decoration: none;
+   color: white;
+   margin: 10px;
+   padding: 10px;
+   transition: .5s;
+   font-family: 'slipknotfont';
+
+}
+
+.ironmaiden a {
+   text-decoration: none;
+   color: white;
+
+   padding: 10px;
+   transition: .5s;
+   font-family: 'ironmaidenfont';
+}
+
+.locations {
+   margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 0px;
+   justify-content: space-evenly;
+   text-align: center;
+   margin-bottom: 25px;
+
+}
+
+.hero a{
+   text-decoration: none;
+}
+
+.hero h3 {
+   color: white;
+   background-color: red;
+   margin-bottom: 0;
+   
+   margin-top: 10px;
+   height: 100px;
+   width: 500px;
+   font-family: jocker;
+   border-radius: 25px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 55px;
+}
+
+.hero h3:hover {
+   background-color: green;
+   color: white;
+   transition: 1s;
+}
+
+iframe {
+   height: 600px;
+   margin-top: 50px;
+   width: 90%;
+   aspect-ratio: 16/9;
+}
+
+
+
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+/*Mobile device*/
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+
+
+
+
+
+@media screen and (max-width:700px) {
+   body {
+      
+      background-image: url(images/wallpaper.jpg);
+   }
+
+   iframe {
+      height: 400px;
+      margin-top: 50px;
+      width: 90%;
+      aspect-ratio: 16/9;
+   }
+
+   .hero h1 {
+      font-size: 50px;
+      text-align: center;
+      margin-bottom: 5px;
+
+   }
+
+   .hero h2 {
+      font-size: 30px;
+
+      text-align: center;
+   }
+
+   .hero h3 {
+      color: white;
+      background-color: red;
+      margin-bottom: 0;
+      text-decoration-line: none;
+      margin-top: 5px;
+      height: 100px;
+      width: 500px;
+      font-family: jocker;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 55px;
+   }
+
+   .hero h3:active {
+      background-color: green;
+      color: white;
+      transition: 1s;
+   }
+
+   .hero h4 {
+      font-size: 45px;
+      margin-bottom: 0px;
+      margin-bottom: 20px;
+      text-align: center;
+   }
+
+   .artists {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+   }
+
+   .megadeth {
+      font-size: 80px;
+      margin-bottom: 70px;
+   }
+
+   .megadeth :active {
+
+      transition: 1s;
+      color: rgb(90, 90, 90);
+
+   }
+
+   .ironmaiden {
+      font-size: 50px;
+      margin-bottom: 70px;
+   }
+
+   .ironmaiden a:active {
+
+      transition: 1s;
+      color: yellow;
+
+
+   }
+
+   .slipknot {
+      font-size: 80px;
+      margin-bottom: 70px;
+
+   }
+
+   .slipknot a:active {
+      transition: 1s;
+      color: red;
+   }
+
+   .metallica a {
+      font-size: 100px;
+      transition: .5s;
+
+
+   }
+
+   .metallica {
+      transition: .5s;
+      margin-bottom: 50px;
+   }
+
+   .metallica a:active {
+      transition: 1s;
+      color: blue;
+   }
+
+   .blacksabbath {
+      font-size: 50px;
+      transition: .5s;
+      margin-bottom: 70px;
+
+   }
+
+   .blacksabbath a:active {
+      transition: 1s;
+      color: purple;
+
+   }
+
+   .slayer {
+      margin-bottom: 20px !important;
+      font-size: 80px;
+      transition: .5s;
+
+   }
+
+   .slayer a:active {
+
+      transition: 1s;
+      color: red;
+
+   }
+
+   .hero h3 {
+      height: 100px;
+      width: 400px;
+      font-size: 50px;
+      margin-bottom: 30px;
+   }
+
+   .hero h3:active {
+      transition: 1s;
+   }
+
+   .locations {
+      display: none;
+   }
+
+   
+
+   /*Instead of hover use active*/
+}
+@media screen and (min-width:701px) and (max-width:1000px){
+   body {
+      border: 10px solid green;
+   }
+}
